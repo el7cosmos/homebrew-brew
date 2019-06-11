@@ -2,8 +2,8 @@ class Codeception < Formula
   desc "Full-stack testing PHP framework"
   homepage "https://codeception.com"
   url "https://codeception.com/codecept.phar"
-  version "2.5.1"
-  sha256 "bf23cb61d8e0bac81a3c6044bf9377f361fa0c8a0ec24694caca80453d84e8a4"
+  version "3.0.1"
+  sha256 "2cc01f8c7e9e8dc4840e7be9d90064ed1e16502d3a9db3493521dca1fcdc3617"
   depends_on "php"
 
   def install
