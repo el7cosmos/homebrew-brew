@@ -1,8 +1,8 @@
 class DrupalConsoleLauncher < Formula
   desc "DrupalConsole global executable aka Launcher"
   homepage "https://drupalconsole.com/"
-  url "https://github.com/hechoendrupal/drupal-console-launcher/releases/download/1.9.0/drupal.phar"
-  sha256 "59462fcbed0aa59892148563fccefd05a3d9fc366ec2f8620ab1f59a9e1d1408"
+  url "https://github.com/hechoendrupal/drupal-console-launcher/releases/download/1.9.1/drupal.phar"
+  sha256 "fbe3ad39e49a05c4b93121ffd1899945d5e6f216a6d35f303694ed2e66d9a734"
 
   def install
     bin.install "drupal.phar" => "drupal"
