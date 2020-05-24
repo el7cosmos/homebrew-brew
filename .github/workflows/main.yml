@@ -10,7 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - run: echo "::set-env name=HOMEBREW_TAP_DIR::$(brew --repo $GITHUB_REPOSITORY)"
-      - run: printenv
       - run: brew update
       - run: mkdir -p $HOMEBREW_TAP_DIR
       - run: rm -rf $HOMEBREW_TAP_DIR
