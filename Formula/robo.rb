@@ -1,8 +1,8 @@
 class Robo < Formula
   desc "Modern task runner for PHP"
   homepage "https://robo.li"
-  url "https://github.com/consolidation/Robo/releases/download/1.4.9/robo.phar"
-  sha256 "373364b7149645b11f1cfc80752d476ee4b989af5662b6f668b0cb451afb6afd"
+  url "https://github.com/consolidation/Robo/releases/download/2.0.6/robo.phar"
+  sha256 "4f831009e0911a6878fff6111fc44030b3adee6db6b05ffeffbee9e873defe40"
   depends_on "php"
 
   def install
