@@ -1,8 +1,8 @@
 class Libasicamera < Formula
   desc "Library for ASI Camera"
   homepage "https://astronomy-imaging-camera.com/"
-  url "https://astronomy-imaging-camera.com/software/ASI_linux_mac_SDK_V0.7.0118.tar"
-  sha256 "9638ab1f99d174dcd817869bf0d65cc68998ca7496bcdf078020eb08753ef560"
+  url "https://astronomy-imaging-camera.com/software/ASI_linux_mac_SDK_V1.15.0430.tar.bz2"
+  sha256 "cf1f9c152103045fbca0167daac5f4222cbce1747f8d5ff117c6ab732b7feb7e"
   depends_on "libusb"
 
   def install
@@ -10,8 +10,8 @@ class Libasicamera < Formula
 
     include.install "include/ASICamera2.h"
     lib.install "lib/mac/libASICamera2.a"
-    lib.install "lib/mac/libASICamera2.dylib.0.7.0118" => "libASICamera2-0.7.0118.dylib"
-    lib.install_symlink lib/"libASICamera2-0.7.0118.dylib" => "libASICamera2.dylib"
+    lib.install "lib/mac/libASICamera2.dylib.1.15.0430" => "libASICamera2-1.15.0430.dylib"
+    lib.install_symlink lib/"libASICamera2-1.15.0430.dylib" => "libASICamera2.dylib"
   end
 
   test do
