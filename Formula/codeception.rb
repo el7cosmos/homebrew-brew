@@ -1,9 +1,9 @@
 class Codeception < Formula
   desc "Full-stack testing PHP framework"
   homepage "https://codeception.com"
-  url "https://codeception.com/releases/4.1.20200828/codecept.phar"
-  version "4.1.7"
-  sha256 "3fdcf81cd5b9e15e89862f1a1896543dfe5e48661da032d3cd67c49f11736e62"
+  url "https://codeception.com/releases/4.1.20201011/codecept.phar"
+  version "4.1.8"
+  sha256 "5a11e299fc27faee442cc1222ea49226e5f653e8f62d8296aa5c7fd3482f8ab8"
   license "MIT"
 
   depends_on "php"
