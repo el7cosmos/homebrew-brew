@@ -1,8 +1,8 @@
 class DrupalConsoleLauncher < Formula
   desc "DrupalConsole global executable aka Launcher"
   homepage "https://drupalconsole.com/"
-  url "https://github.com/hechoendrupal/drupal-console-launcher/releases/download/1.9.4/drupal.phar"
-  sha256 "968b03813b036067114e479b94b711b488bc40ef84e56cc2775f28cd247bc65b"
+  url "https://github.com/hechoendrupal/drupal-console-launcher/releases/download/1.9.7/drupal.phar"
+  sha256 "924987c9c921a2ea2fe235b9276390a51105d8a0f686c4e7aed13df342b9bc91"
   license "GPL-2.0-or-later"
 
   def install
