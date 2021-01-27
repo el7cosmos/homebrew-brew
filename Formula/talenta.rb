@@ -1,12 +1,15 @@
 class Talenta < Formula
   desc "Command-line interface for Talenta"
   homepage "https://github.com/el7cosmos/talenta"
-  url "https://github.com/el7cosmos/talenta/releases/download/0.4.0/talenta-0.4.0-x86_64-apple-darwin.tar.gz"
-  sha256 "3fd4b5a759b8126d0791f7ffaffadb6a8340fd728d2a3bd1c638755d005a3514"
+  url "https://github.com/el7cosmos/talenta/archive/0.4.0.tar.gz"
+  sha256 "7a42cacbd7e09a92d977a124752d112ac1a4f5d9c92ec6770dd0f8fb5418bd42"
   license any_of: %w[MIT Apache-2.0]
+  revision 1
+
+  depends_on "rust" => :build
 
   def install
-    bin.install "talenta"
+    system "cargo", "install", *std_cargo_args
   end
 
   test do
