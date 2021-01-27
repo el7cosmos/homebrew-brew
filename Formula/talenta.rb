@@ -6,6 +6,12 @@ class Talenta < Formula
   license any_of: %w[MIT Apache-2.0]
   revision 1
 
+  bottle do
+    root_url "https://dl.bintray.com/el7cosmos/bottle-brew"
+    cellar :any_skip_relocation
+    sha256 "0c16b9e4bf32ffc24ab6e2a4d5e4b6f3c5b864e076a60745fe41ef9b337fb3d1" => :big_sur
+  end
+
   depends_on "rust" => :build
 
   def install
