@@ -10,6 +10,12 @@ class Robo < Formula
     regex(/^v?(\d+(?:\.\d+)+)$/i)
   end
 
+  bottle do
+    root_url "https://dl.bintray.com/el7cosmos/bottle-brew"
+    cellar :any_skip_relocation
+    sha256 "f3893509fe549aa511d9f2bee612b9266fb67d75afe3c99cb6d937cdf03f1916" => :big_sur
+  end
+
   depends_on "composer"
   depends_on "php"
 
