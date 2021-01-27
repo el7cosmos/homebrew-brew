@@ -6,6 +6,10 @@ class Codeception < Formula
   sha256 "9f0bd9fdffb1e0e3086fa229694f40e4a7586a0dfc15433c4ca7c7db5f06caff"
   license "MIT"
 
+  livecheck do
+    url "https://github.com/Codeception/Codeception"
+  end
+
   depends_on "php"
 
   def install
