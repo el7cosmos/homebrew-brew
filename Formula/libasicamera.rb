@@ -1,15 +1,21 @@
 class Libasicamera < Formula
   desc "Library for ASI Camera"
   homepage "https://astronomy-imaging-camera.com/"
-  url "https://astronomy-imaging-camera.com/software/ASI_linux_mac_SDK_V1.15.0430.tar.bz2"
-  sha256 "cf1f9c152103045fbca0167daac5f4222cbce1747f8d5ff117c6ab732b7feb7e"
+  url "https://astronomy-imaging-camera.com/software/ASI_linux_mac_SDK_V1.16.3.tar.bz2"
+  sha256 "3167b0b0c1958b11f24875f5f185cd4fcbb56ced967971ec26ae0897ac2f152a"
+
+  livecheck do
+    url "https://astronomy-imaging-camera.com/software-drivers"
+    regex(/href=.*?ASI_linux_mac_SDK_V?(\d+(?:\.\d+)+)\.t/i)
+  end
+
   depends_on "libusb"
 
   def install
     include.install "include/ASICamera2.h"
     lib.install "lib/mac/libASICamera2.a"
-    lib.install "lib/mac/libASICamera2.dylib.1.15.0430" => "libASICamera2-1.15.0430.dylib"
-    lib.install_symlink lib/"libASICamera2-1.15.0430.dylib" => "libASICamera2.dylib"
+    lib.install "lib/mac/libASICamera2.dylib.#{version}" => "libASICamera2-#{version}.dylib"
+    lib.install_symlink lib / "libASICamera2-#{version}.dylib" => "libASICamera2.dylib"
   end
 
   test do
