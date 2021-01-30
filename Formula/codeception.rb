@@ -10,6 +10,8 @@ class Codeception < Formula
     url "https://github.com/Codeception/Codeception"
   end
 
+  bottle :unneeded
+
   depends_on "php"
 
   def install
