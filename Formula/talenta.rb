@@ -8,8 +8,7 @@ class Talenta < Formula
 
   bottle do
     root_url "https://dl.bintray.com/el7cosmos/bottle-brew"
-    cellar :any_skip_relocation
-    sha256 "0c16b9e4bf32ffc24ab6e2a4d5e4b6f3c5b864e076a60745fe41ef9b337fb3d1" => :big_sur
+    sha256 cellar: :any_skip_relocation, big_sur: "0c16b9e4bf32ffc24ab6e2a4d5e4b6f3c5b864e076a60745fe41ef9b337fb3d1"
   end
 
   depends_on "rust" => :build

@@ -11,8 +11,7 @@ class Libasicamera < Formula
 
   bottle do
     root_url "https://dl.bintray.com/el7cosmos/bottle-brew"
-    cellar :any
-    sha256 "78f5b4ef48bfd644d91ff67494ab146b8d977a34d206d72b8c3ed9c829e05536" => :big_sur
+    sha256 cellar: :any, big_sur: "78f5b4ef48bfd644d91ff67494ab146b8d977a34d206d72b8c3ed9c829e05536"
   end
 
   depends_on "libusb"

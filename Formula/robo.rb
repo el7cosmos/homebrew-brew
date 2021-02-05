@@ -12,8 +12,7 @@ class Robo < Formula
 
   bottle do
     root_url "https://dl.bintray.com/el7cosmos/bottle-brew"
-    cellar :any_skip_relocation
-    sha256 "f3893509fe549aa511d9f2bee612b9266fb67d75afe3c99cb6d937cdf03f1916" => :big_sur
+    sha256 cellar: :any_skip_relocation, big_sur: "f3893509fe549aa511d9f2bee612b9266fb67d75afe3c99cb6d937cdf03f1916"
   end
 
   depends_on "composer"
