@@ -5,6 +5,12 @@ class DrushLauncher < Formula
   sha256 "97e64b94588eeca5f97ffcb0595c7e3988e685651d898d65c3ae07ca8f9c94c6"
   license "GPL-2.0-or-later"
 
+  livecheck do
+    url :stable
+  end
+
+  bottle :unneeded
+
   def install
     bin.install "drush.phar" => "drush"
   end
