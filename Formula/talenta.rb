@@ -1,8 +1,8 @@
 class Talenta < Formula
   desc "Command-line interface for Talenta"
   homepage "https://github.com/el7cosmos/talenta"
-  url "https://github.com/el7cosmos/talenta/archive/0.4.3.tar.gz"
-  sha256 "7ebc02f806b8f418b036a8045f683a2c4d561e1cffb2b137e2c0acf7eabe2b0b"
+  url "https://github.com/el7cosmos/talenta/archive/0.4.4.tar.gz"
+  sha256 "5433870a955d6dbd2bfbbda3b2064f8123e7f111a780a4dbaafcd4d90aa18784"
   license any_of: %w[MIT Apache-2.0]
 
   bottle do
