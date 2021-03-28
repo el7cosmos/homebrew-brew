@@ -1,8 +1,8 @@
 class DrushLauncher < Formula
   desc "Small wrapper around Drush for your global $PATH"
   homepage "https://github.com/drush-ops/drush-launcher"
-  url "https://github.com/drush-ops/drush-launcher/releases/download/0.9.0/drush.phar"
-  sha256 "fd75f71018707adec0b6203aa2517b7a3cdb955c3b2db4620a6222d5a672a6f7"
+  url "https://github.com/drush-ops/drush-launcher/releases/download/0.9.1/drush.phar"
+  sha256 "52b5e22031789e087e4f79ac49c74d94c0379ad6859f3ec14671ce1647a3b7a6"
   license "GPL-2.0-or-later"
 
   livecheck do
