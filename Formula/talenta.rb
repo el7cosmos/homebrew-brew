@@ -6,7 +6,7 @@ class Talenta < Formula
   license any_of: %w[MIT Apache-2.0]
 
   bottle do
-    root_url "https://github.com/el7cosmos/homebrew-brew/releases/download/talenta-0.4.5"
+    root_url "https://ghcr.io/v2/el7cosmos/brew/talenta"
     sha256 cellar: :any_skip_relocation, big_sur:  "4bb8e6318d0a352da4d406024377ee772f7da81ecb4fc21b08da56610d0ee06b"
     sha256 cellar: :any_skip_relocation, catalina: "c87aeb5e0eebabbbd3edfec05defc36573dadda3a5eb3226002e2ca23e877d69"
   end
