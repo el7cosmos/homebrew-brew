@@ -10,7 +10,7 @@ class Libasicamera < Formula
   end
 
   bottle do
-    root_url "https://dl.bintray.com/el7cosmos/bottle-brew"
+    root_url "https://ghcr.io/v2/el7cosmos/brew/libasicamera"
     sha256 cellar: :any, big_sur: "78f5b4ef48bfd644d91ff67494ab146b8d977a34d206d72b8c3ed9c829e05536"
   end
 
