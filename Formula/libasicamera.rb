@@ -1,8 +1,9 @@
 class Libasicamera < Formula
   desc "Library for ASI Camera"
   homepage "https://astronomy-imaging-camera.com/"
-  url "https://astronomy-imaging-camera.com/software/ASI_linux_mac_SDK_V1.16.3.tar.bz2"
-  sha256 "3167b0b0c1958b11f24875f5f185cd4fcbb56ced967971ec26ae0897ac2f152a"
+  url "https://download.astronomy-imaging-camera.com/download/asi-camera-sdk-linux-mac/?wpdmdl=381"
+  version "1.18"
+  sha256 "919b05a3c7b4d57424057f08596e13f46e85ea8a67e83613ee8ba26ae88ae833"
 
   livecheck do
     url "https://astronomy-imaging-camera.com/software-drivers"
