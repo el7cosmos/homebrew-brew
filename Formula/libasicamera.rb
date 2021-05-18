@@ -11,8 +11,9 @@ class Libasicamera < Formula
   end
 
   bottle do
-    root_url "https://ghcr.io/v2/el7cosmos/brew/libasicamera"
-    sha256 cellar: :any, big_sur: "78f5b4ef48bfd644d91ff67494ab146b8d977a34d206d72b8c3ed9c829e05536"
+    root_url "https://ghcr.io/v2/el7cosmos/brew"
+    sha256 cellar: :any, big_sur:  "ec9a05bf8606f21f2189c84e2dcc3eae381613570b829f1666def3b018c6baa0"
+    sha256 cellar: :any, catalina: "fc14ef99647452b785b2ebf53a99993cfc9ea527f1e75ac37aed6743f14f4ddd"
   end
 
   depends_on "libusb"
