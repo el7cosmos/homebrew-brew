@@ -6,9 +6,9 @@ class Talenta < Formula
   license any_of: %w[MIT Apache-2.0]
 
   bottle do
-    root_url "https://ghcr.io/v2/el7cosmos/brew/talenta"
-    sha256 cellar: :any_skip_relocation, big_sur:  "4bb8e6318d0a352da4d406024377ee772f7da81ecb4fc21b08da56610d0ee06b"
-    sha256 cellar: :any_skip_relocation, catalina: "c87aeb5e0eebabbbd3edfec05defc36573dadda3a5eb3226002e2ca23e877d69"
+    root_url "https://ghcr.io/v2/el7cosmos/brew"
+    sha256 cellar: :any_skip_relocation, big_sur:  "f819d22f8b7bed30d6b9faac41e44b2a949c908f40f565a7dc72f14751ba0c99"
+    sha256 cellar: :any_skip_relocation, catalina: "96f5584873b1d6155bd0b7e69d714b971a92a94e74dd33065ba12e557618be47"
   end
 
   depends_on "rust" => :build
