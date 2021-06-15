@@ -12,8 +12,8 @@ class Roadrunner < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/el7cosmos/brew"
-    sha256 cellar: :any_skip_relocation, big_sur:  "c80b08abe35ef3004f1a20144012d3a77c1dc952eff4f9d64a706ef2bf7b4812"
-    sha256 cellar: :any_skip_relocation, catalina: "c17c51ecfc8640fd127c9fbf7dbb72b8e710eed1477dbb591b379c5fe300c22a"
+    sha256 cellar: :any_skip_relocation, big_sur:  "18c0d960076c9ac150e28a84cb909a3499b7d8484a675f4ac20ded666db3131b"
+    sha256 cellar: :any_skip_relocation, catalina: "70a33e4649b767f66605552fe9254c4cea5a693383d3582a22af54a6bf7c5515"
   end
 
   depends_on "go" => :build
