@@ -11,9 +11,9 @@ class Robo < Formula
   end
 
   bottle do
-    root_url "https://github.com/el7cosmos/homebrew-brew/releases/download/robo-3.0.3"
-    sha256 cellar: :any_skip_relocation, big_sur:  "32b4a26e68ed8ccf236a4ef9758cfbcd2538a80b7c12ab4e2f5ac7c159164b81"
-    sha256 cellar: :any_skip_relocation, catalina: "f8f31020db243b97aed671d3b4a3ed3eb249a7c906d7a8f872c980da40832369"
+    root_url "https://ghcr.io/v2/el7cosmos/brew"
+    sha256 cellar: :any_skip_relocation, big_sur:  "95d87f4c6d1328445f4c6a585a392ea605792c2861fd47d9301b8a8b548a1d2b"
+    sha256 cellar: :any_skip_relocation, catalina: "0131386d05da22383574fc3080487f304d02083ffd43c59a9f9c03a3e2214b43"
   end
 
   depends_on "composer"
