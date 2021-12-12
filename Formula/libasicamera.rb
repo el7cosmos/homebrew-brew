@@ -6,8 +6,8 @@ class Libasicamera < Formula
   sha256 "919b05a3c7b4d57424057f08596e13f46e85ea8a67e83613ee8ba26ae88ae833"
 
   livecheck do
-    url "https://astronomy-imaging-camera.com/software-drivers"
-    regex(/href=.*?ASI_linux_mac_SDK_V?(\d+(?:\.\d+)+)\.t/i)
+    url "https://astronomy-imaging-camera.com/software/change_log/change_ASISDK_Unix.txt"
+    regex(/V(\d+(?:\.\d+)+)/i)
   end
 
   bottle do
