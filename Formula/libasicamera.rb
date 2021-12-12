@@ -12,8 +12,8 @@ class Libasicamera < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/el7cosmos/brew"
-    sha256 cellar: :any, big_sur:  "ec9a05bf8606f21f2189c84e2dcc3eae381613570b829f1666def3b018c6baa0"
-    sha256 cellar: :any, catalina: "fc14ef99647452b785b2ebf53a99993cfc9ea527f1e75ac37aed6743f14f4ddd"
+    sha256 cellar: :any, big_sur:  "934f1a392fba738a18f0ac0fbcc8a69fd4e1d6266333d8cd1d526c7035c665a3"
+    sha256 cellar: :any, catalina: "0d7add0904ab26d9f2aaf0c3be8b1f31a043b44671633ddcaa7a9d3f8aba1fbe"
   end
 
   depends_on "libusb"
