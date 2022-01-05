@@ -12,8 +12,8 @@ class Robo < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/el7cosmos/brew"
-    sha256 cellar: :any_skip_relocation, big_sur:  "95d87f4c6d1328445f4c6a585a392ea605792c2861fd47d9301b8a8b548a1d2b"
-    sha256 cellar: :any_skip_relocation, catalina: "0131386d05da22383574fc3080487f304d02083ffd43c59a9f9c03a3e2214b43"
+    sha256 cellar: :any_skip_relocation, big_sur:  "969bd66de572cbb99fd697a1ad5ecd36812af6b3b1f3890385a9c35684b09b23"
+    sha256 cellar: :any_skip_relocation, catalina: "62fd0e31e23af0eb803a8ac23f84e60660592992d2a5daf3471ecf9f89607079"
   end
 
   depends_on "composer"
