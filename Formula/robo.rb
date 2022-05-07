@@ -1,8 +1,8 @@
 class Robo < Formula
   desc "Modern task runner for PHP"
   homepage "https://robo.li"
-  url "https://github.com/consolidation/Robo/archive/3.0.7.tar.gz"
-  sha256 "bd26425e17748a58c5d85226a6b2c36626fe2e676b1397faa8a3c86febb907a2"
+  url "https://github.com/consolidation/Robo/archive/3.0.10.tar.gz"
+  sha256 "749c8e62976ff43632a26c5f6513e325e4cf1153ceb1c54a1bb0c14e6ac87d2b"
   license "MIT"
 
   livecheck do
