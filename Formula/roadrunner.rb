@@ -1,8 +1,8 @@
 class Roadrunner < Formula
-  desc "High-performance PHP application server, load-balancer & process manager"
-  homepage "https://roadrunner.dev/"
-  url "https://github.com/spiral/roadrunner-binary/archive/refs/tags/v2.7.0.tar.gz"
-  sha256 "b4b96126d5098dfb3f5adfed0e0a65cb3fb83237d7fda3af13e4fbb8c0004363"
+  desc "🤯 High-performance PHP application server, process manager written in Go"
+  homepage "https://roadrunner.dev"
+  url "https://github.com/roadrunner-server/roadrunner/archive/refs/tags/v2.10.7.tar.gz"
+  sha256 "d74851a0f9cb207a782e47c63c008c3bd87e32ca701427e8914a04b164039c50"
   license "MIT"
 
   livecheck do
@@ -21,7 +21,7 @@ class Roadrunner < Formula
   def install
     system "go",
            "build",
-           *std_go_args(ldflags: "-s -X github.com/spiral/roadrunner-binary/v2/internal/meta.version=#{version} -X github.com/spiral/roadrunner-binary/v2/internal/meta.buildTime=#{Time.now.iso8601}"),
+           *std_go_args(ldflags: "-s -X github.com/roadrunner-server/roadrunner/v2/internal/meta.version=#{version} -X github.com/roadrunner-server/roadrunner/v2/internal/meta.buildTime=#{Time.now.iso8601}"),
            "./cmd/rr"
   end
 
