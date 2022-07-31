@@ -38,7 +38,7 @@ module Homebrew
              description: "Make the expected file modifications without taking any Git actions."
       switch "--commit",
              depends_on:  "--write",
-             description: "When passed with `--write`, generate a new commit after writing changes "\
+             description: "When passed with `--write`, generate a new commit after writing changes " \
                           "to the formula file."
       switch "--no-audit",
              description: "Don't run `brew audit` before opening the PR."
