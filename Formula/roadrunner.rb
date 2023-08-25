@@ -1,8 +1,8 @@
 class Roadrunner < Formula
-  desc "🤯 High-performance PHP application server, process manager written in Go"
+  desc "High-performance PHP application server, process manager written in Go"
   homepage "https://roadrunner.dev"
-  url "https://github.com/roadrunner-server/roadrunner/archive/refs/tags/v2.10.7.tar.gz"
-  sha256 "d74851a0f9cb207a782e47c63c008c3bd87e32ca701427e8914a04b164039c50"
+  url "https://github.com/roadrunner-server/roadrunner/archive/refs/tags/v2023.2.2.tar.gz"
+  sha256 "94fcc6674f7084b5a8aef09e73900c87f87846d304c0921a0166c1318ae4be12"
   license "MIT"
 
   livecheck do
